@@ -1,7 +1,7 @@
-- name: Hello World Sample
+- name: Hello Testomg Sample
   hosts: all
   tasks:
-    - name: Hello Message
+    - name: Hello Messages
       debug:
-        msg: "Hello World!"
+        msg: "Hello New Testing!"
 
