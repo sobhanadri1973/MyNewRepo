@@ -1,8 +1,8 @@
 ---
 - hosts: all
   become: yes
-  become_user: root
-  become_method: su
+# become_user: root
+# become_method: su
   tasks:
     - name: install httpd
       yum: name=httpd state=latest
